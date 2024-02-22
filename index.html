@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+   <script src="./bundle.js" type="text/javascript"></script> 
+   <head>
+      <title>Skyblock Optimizer</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="A unique website that optimizes your profile with just a few clicks!">
+      <meta name="keywords" content="SBS, Skyblock Simplified, Hypixel, Skyblock">
+      <meta name="author" content="CraftedFury">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="resources/style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
+      <style>@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');</style>
+   </head>
+   <body>
+      <div class="loading-animation", id="loading-animation">
+         <div class="bar"></div>
+         <div class="bar"></div>
+         <div class="bar"></div>
+         <div class="bar"></div>
+         <div class="bar"></div>
+         <div class="bar"></div>
+         <div class="bar"></div>
+         <div class="bar"></div>
+      </div>
+      <div class="container-submission", id="container-submission">
+         <h1 class="main-title">Skyblock Optimizer</h1>
+         <input type="text" id="player_username" name="player_username_input" placeholder="Player Username" required minlength="3" maxlength="16" class="player_username_input"> <button onclick="okButton()" id="submit" class="submission-button">Continue</button> 
+      </div>
+      <div class="alert-box", id="alert-box">
+         <h1 class="alert-box-title" id="alert-box-title"></h1>
+         <p class="alert-box-description" id="alert-box-description"></p>
+         <button onclick="okButton()" id="submit" class="submission-button">Okay</button> 
+      </div>
+      <div class="profile-selector", id="profile-selector">
+         <h1 class="profile-title" id="profile-title">Select a profile to optimize</h1>
+      </div>
+      <script type = "text/javascript"> function okButton() { 
+         window.location.href = "https://youtu.be/GQUMRcu11t4" 
+         } setTimeout(function () { var loading_div = document.getElementById("loading-animation"); if (loading_div) { loading_div.remove(); var container_div = document.getElementById("container-submission"); container_div.style.visibility = "visible"; } else location.refresh(); }, Math.random() * 3000); </script> 
+   </body>
+</html>
